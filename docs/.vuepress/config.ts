@@ -1,11 +1,11 @@
+// @ts-ignore
 import process from 'node:process'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defineUserConfig } from '@vuepress/cli'
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
-import { getDirname, path } from '@vuepress/utils'
+import { getDirname } from '@vuepress/utils'
 import {
   head,
   navbarEn,
@@ -13,10 +13,6 @@ import {
   sidebarEn,
   sidebarUz,
 } from './settings'
-
-// Unused plugin
-// import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-
 
 // @ts-ignore
 const __dirname = getDirname(import.meta.url)
@@ -109,14 +105,6 @@ export default defineUserConfig({
       prismjs: !isProd,
     },
   }),
-
-  // configure markdown
-  markdown: {
-    importCode: {
-      handleImportPath: (str) =>
-        str.replace(/^@vuepress/, path.resolve(__dirname, '../../ecosystem')),
-    },
-  },
 
   // use plugins
   plugins: [
