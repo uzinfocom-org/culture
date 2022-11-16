@@ -1,4 +1,3 @@
-// @ts-ignore
 import process from 'node:process'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
@@ -121,9 +120,6 @@ export default defineUserConfig({
 
   // use plugins
   plugins: [
-    registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
-    }),
     // only enable shiki plugin in production mode
     isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
   ],
