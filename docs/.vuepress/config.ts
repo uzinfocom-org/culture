@@ -80,7 +80,7 @@ export default defineUserConfig({
         // page meta
         editLinkText: 'GitHub da o\'zgartirish',
         lastUpdatedText: 'Oxirgi yangilanish',
-        contributorsText: 'Hissa qo\'shish',
+        contributorsText: 'Hissa qo\'shganlar',
         // custom containers
         tip: 'Yordam',
         warning: 'Ogohlantiruv',
