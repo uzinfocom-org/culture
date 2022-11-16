@@ -4,11 +4,11 @@ import { version } from '../meta.js'
 export const navbarUz: NavbarConfig = [
   {
     text: 'Qo\'llanma',
-    link: '/guide/',
+    link: '/uz/guide/',
   },
   {
     text: 'Ishlanmoqda',
-    link: '/wip/',
+    link: '/uz/wip/',
   },
   {
     text: 'Foydali',
