@@ -4,10 +4,10 @@ title: Home
 heroImage: /images/hero.png
 actions:
 - text: Get Started
-  link: /
+  link: /guide/
   type: primary
 - text: Introduction
-  link: /
+  link: /wip/
   type: secondary
 features:
 - title: Branding

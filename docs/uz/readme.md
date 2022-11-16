@@ -4,10 +4,10 @@ title: Asosiy
 heroImage: /images/hero.png
 actions:
 - text: Boshlash
-  link: /guide/
+  link: /uz/guide/
   type: primary
 - text: Qo'shish
-  link: /wip/
+  link: /uz/wip/
   type: secondary
 features:
 - title: Brending
